@@ -1214,89 +1214,30 @@
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 480px) {
   #intro .logo {
-    width: 240vw;
-    max-width: 1000px;
+    width: 85vw;
+    max-width: 400px;
+    margin-top: 40px;
+  }
+
+  .main-buttons {
     height: auto;
-    margin-top: 0px;
-  }
- #quiz .question-box {
-    transform: scale(0.8);
-    width: 95%;
-    max-width: 360px;
+    margin-top: 40px;
   }
 
-  #quiz .choice-btn {
-    font-size: 0.95rem;
-    padding: 0.8em;
-  }
-
-  /* 퀴즈용 프로그레스 점도 작게 */
-  #quiz .dot {
-    width: 6px;
-    height: 6px;
-  }
-
-  /* 버튼도 위치 살짝 조정 */
   .btn-large-round {
-    width: 150px;
-    height: 150px;
-    top: 200px;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    position: relative;
+    margin: 0 auto;
   }
 
   .btn-small-flat {
-    top: 450px;
-  }
-}
-
-  .btn img.btn-icon {
-    width: 200px;
-    height: 200px;
-  }
-
-  .result-header-container {
-    height: 80px;
-  }
-
-  .result-logo {
-    width: 70vw;
-    max-width: 100%;
-  }
-
-  .result-title {
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-  }
-
-  .stat-circle {
-    width: 160px;
-    height: 160px;
-    font-size: 2.2rem;
-  }
-
-  .score-label {
-    font-size: 1.2rem;
-  }
-
-  .sleep-time span {
-    font-size: 1.7rem;
-  }
-
-  .recommendations h2 {
-    font-size: 1.4rem;
-  }
-
-  .recommendation-item {
-    padding: 1rem;
-  }
-
-  .result-card {
-    padding: 1.5rem;
-  }
-
-  .history-header {
-    font-size: 1.6rem;
+    top: 20px;
+    position: relative;
+    margin-top: 20px;
   }
 
   .bottom-nav .nav-icon {
@@ -1304,7 +1245,10 @@
     height: 50px;
   }
 
- 
+  .bottom-nav {
+    height: 65px;
+    padding-bottom: 10px;
+  }
 }
   </style>
 </head>
